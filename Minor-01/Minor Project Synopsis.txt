@@ -1,0 +1,47 @@
+Abstract & Problem Definition: 
+Our project provides a solution by creating a smarter attendance system.As we all know that in majority
+of the schools and colleges attendance is taken manually which makes the process more time
+consuming and if the data is to be stored then the record needs to be stored for each student. 
+This makes the process complex for entering the data as well. With our smart attendance system we
+minimize the effort that is currently required to maintain and store attendance. This will help in reducing
+possible errors while entering the data and time required to record attendance is less.
+
+Objectives: 
+1. To make use of emerging technologies to improve academic system.
+2. To make the process of recording attendance more efficient with respect to time as well as data 
+	maintainability.
+3.  Ease in accessing student information(through portal)
+
+System Design: 
+
+Methodology: 
+
+SOFTWARE REQUIREMENTS:
+1. Flask Framework will be used for the Frontend of the Portal.
+2. FireBase can be used for portal user authentication.
+3. face_recognition machine learning model will be used.
+4. A noSQL database will be used for dynamic data entry for student attendance.
+5. OpenCV python model will be used for taking input from the WebCAM/CCTV.  
+
+HARDWARE REQUIREMENTS:
+1. A webcam/cctv with high resolution.
+
+FUNCTIONAL REQUIREMENTS:
+1. Video input is taken from the camera and faces are recognized using the face_recognition model.
+2. System then maps the face of student to the student name and usn.
+3. The system then stores the student and corresponding attendace in a database provided by the portal
+to each faculty.
+
+NON-FUNCTIONAL REQUIREMENTS:
+1. System must detect atleast 10 people at one time with high accuracy.
+2. Record storing must be instantaneous and dynamic in nature.
+3. Attendance percentage to be calculated accurately. 
+
+Possible Outcomes:
+1. Improved and well stuctured attendance system.
+2. Easy attendance data maintainance.
+3. Increased efficiency in the process of conducting and maintaining attendance for all parties.
+
+References: 
+
+
